@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+
+
+}
+
+
+body{
+    display: flex;
+    background-color: #202028;
+    color:#fff; 
+    justify-content: center;
+    
+}
+
+
+.caixa{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(167, 182, 182);
+    justify-content: center;
+
+}
+
+div{
+    margin-bottom: 40px;
+}
