@@ -7,7 +7,7 @@ const chat = document.querySelector("#chat")
 const resposta = document.querySelector("#resposta")
 
 btn_.addEventListener("click", ()=>{
-    let converter = converter_binario(Number(chat.value))
+    let converter = converter_binario(Math.floor(chat.value))
     
     if(converter ==""){
         alert("Digite apenas números inteiros !")
