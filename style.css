@@ -11,20 +11,49 @@ body{
     display: flex;
     background-color: #202028;
     color:#fff; 
+    font-weight: bold;
     justify-content: center;
     
 }
 
 
 .caixa{
+    position: relative;
+    top: 100px;
     display: flex;
     height: 200px;
-    width: 200px;
-    background-color: rgb(167, 182, 182);
+    width: 400px;
+    background-color: #EA8D8D; 
     justify-content: center;
+    border-radius: 5%;
+    box-shadow: 1px 1px 1px 1px #fff;
 
 }
 
-div{
-    margin-bottom: 40px;
+.caixa2{
+    margin-bottom: 30px;
 }
+
+#chat{
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #f6f6f6;
+    padding-left: 10px;
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+
+}
+
+
+#converter{
+    border: none;
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    color: #fff; 
+    cursor: pointer;
+    background-color: #1EAE98;
+} 
