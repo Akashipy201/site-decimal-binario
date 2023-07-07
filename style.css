@@ -52,8 +52,16 @@ body{
     border: none;
     height: 30px;
     width: 200px;
-    border-radius: 5px;
+    border-radius: 10px;
     color: #fff; 
     cursor: pointer;
     background-color: #1EAE98;
+  
 } 
+
+
+#resposta{
+   text-align: center;
+   font-size: 20px;
+   text-shadow: 1px 1px 1px black;
+}

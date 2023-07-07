@@ -14,8 +14,8 @@ export function converter_binario(n){
             lista.push(resto)
     
         }  
-        resposta = lista.reverse()
-        return resposta.join("")
+        resposta = lista.reverse().join("")
+        return resposta
 
     }
 }
